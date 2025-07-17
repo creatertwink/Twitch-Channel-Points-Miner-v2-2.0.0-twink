@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
+from background import keep_alive
 from colorama import Fore
 from TwitchChannelPointsMiner import TwitchChannelPointsMiner
 from TwitchChannelPointsMiner.logger import LoggerSettings, ColorPalette
@@ -14,7 +15,7 @@ from TwitchChannelPointsMiner.classes.Gotify import Gotify
 from TwitchChannelPointsMiner.classes.Settings import Priority, Events, FollowersOrder
 from TwitchChannelPointsMiner.classes.entities.Bet import Strategy, BetSettings, Condition, OutcomeKeys, FilterCondition, DelayMode
 from TwitchChannelPointsMiner.classes.entities.Streamer import Streamer, StreamerSettings
-
+keep_alive()
 twitch_miner = TwitchChannelPointsMiner(
     username="dawdawdawdffff",
     password="dawdawdawdffffdawdawdawdffff",           # If no password will be provided, the script will ask interactively
