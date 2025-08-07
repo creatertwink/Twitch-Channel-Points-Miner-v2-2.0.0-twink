@@ -122,16 +122,25 @@ twitch_miner = TwitchChannelPointsMiner(
 
 twitch_miner.mine(
     [
-        Streamer("pan1x_t0p"),
-        Streamer("loge_tv"),
-        Streamer("IXUMEPA"), 
-        Streamer("adhh_spasibo"),
-        Streamer("nsh4rk"), 
-        Streamer("KarfagenSC"),
-        Streamer("whithblade"), #albion
-        Streamer("Enardo"),    #rust
-        Streamer("HuntressZee"), #Once human
-        Streamer("RhymeVT") #marvel rivals
+        Streamer("MonsteraArt"),
+        Streamer("moons"),
+        Streamer("Tanizen"),
+        Streamer("VincentSMG"),
+        Streamer("GEVAD1CH"),
+        Streamer("vaybae"),
+        Streamer("ElWasabiTM"),
+        Streamer("ravennrust"),
+        Streamer("Wabbit"),
+        #Streamer("pan1x_t0p"),
+        #Streamer("loge_tv"), 
+        #Streamer("IXUMEPA"), 
+        #Streamer("adhh_spasibo"),
+        #Streamer("nsh4rk"), 
+        #Streamer("KarfagenSC"),
+        #Streamer("whithblade"), #albion
+        #Streamer("Enardo"),    #rust
+       #Streamer("HuntressZee"), #Once human
+       #Streamer("RhymeVT") #marvel rivals
     ],                                  # Array of streamers (order = priority)
     followers=False,                    # Automatic download the list of your followers
     followers_order=FollowersOrder.ASC  # Sort the followers list by follow date. ASC or DESC
