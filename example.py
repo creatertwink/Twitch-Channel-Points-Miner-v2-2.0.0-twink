@@ -16,7 +16,7 @@ from TwitchChannelPointsMiner.classes.Settings import Priority, Events, Follower
 from TwitchChannelPointsMiner.classes.entities.Bet import Strategy, BetSettings, Condition, OutcomeKeys, FilterCondition, DelayMode
 from TwitchChannelPointsMiner.classes.entities.Streamer import Streamer, StreamerSettings
 from autorestart import init_auto_restart
-init_auto_restart(interval=28800)
+init_auto_restart(interval=172800)
 keep_alive()
 twitch_miner = TwitchChannelPointsMiner(
     username="dawdawdawdffff",
